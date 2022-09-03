@@ -1,0 +1,399 @@
+/* line 1, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 10, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_reset.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 14, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_reset.scss */
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 1280px) {
+  /* line 14, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_reset.scss */
+  html {
+    font-size: 55%;
+  }
+}
+
+/* line 1, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_grid.scss */
+.container {
+  width: 100%;
+  max-width: 121.6rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+/* line 1, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_header.scss */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 11.9rem;
+  background-color: #5F3CA1;
+  display: flex;
+}
+
+/* line 9, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_header.scss */
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 13, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_header.scss */
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+/* line 17, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_header.scss */
+header nav ul li:not(:first-child) {
+  margin-left: 5.6rem;
+}
+
+/* line 20, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_header.scss */
+header nav ul li a {
+  display: flex;
+  align-items: center;
+}
+
+/* line 24, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_header.scss */
+header nav ul li span {
+  color: #ffffff;
+  font-size: 1.6rem;
+  margin-left: 1.6rem;
+  line-height: 1.9rem;
+}
+
+@media (max-width: 600px) {
+  /* line 36, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_header.scss */
+  header .container {
+    justify-content: center;
+  }
+  /* line 39, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_header.scss */
+  header nav {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  /* line 1, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_header.scss */
+  header {
+    height: 8rem;
+  }
+}
+
+/* line 1, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+button {
+  display: inline-block;
+  height: 5.4rem;
+  background-color: #FFBF00;
+  border-radius: 6px;
+  padding: 0px 5rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 5.4rem;
+  color: #5F3CA1;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+/* line 26, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_mixins.scss */
+button:hover {
+  background-color: #5F3CA1;
+  color: #FFBF00;
+}
+
+/* line 4, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-hero {
+  background-color: #5F3CA1;
+  margin-top: 11.9rem;
+  padding-top: 3.9rem;
+}
+
+/* line 8, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-hero .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 11, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-hero .text {
+  width: 100%;
+  max-width: 55rem;
+}
+
+/* line 14, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-hero .text h1 {
+  font-family: "PT Sans",sans-serif;
+  font-weight: bold;
+  font-size: 4.8rem;
+  line-height: 120%;
+  color: #ffffff;
+  margin-bottom: 1.6rem;
+}
+
+/* line 22, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-hero .text p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: #ffff;
+  max-width: 48.8rem;
+  margin-bottom: 3.2rem;
+}
+
+/* line 29, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-hero .text button {
+  display: inline-block;
+  height: 5.4rem;
+  background-color: #FFBF00;
+  border-radius: 6px;
+  padding: 0px 5rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 5.4rem;
+  color: #503387;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin-bottom: 8.6rem;
+}
+
+/* line 26, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_mixins.scss */
+.s-hero .text button:hover {
+  background-color: #503387;
+  color: #FFBF00;
+}
+
+/* line 33, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-hero .text .conheca {
+  display: flex;
+  align-items: center;
+}
+
+/* line 36, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-hero .text .conheca .icon {
+  width: 4.2rem;
+  height: 4.2rem;
+  background-color: rgba(123, 90, 186, 0.4);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 43, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-hero .text .conheca span {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  margin-left: 1.6rem;
+}
+
+/* line 53, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-hero .image {
+  position: relative;
+  top: 3.4rem;
+}
+
+@media (max-width: 991px) {
+  /* line 60, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+  .s-hero .container {
+    flex-direction: column;
+  }
+  /* line 63, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+  .s-hero .text {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  /* line 66, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+  .s-hero .text h1 {
+    text-align: center;
+  }
+  /* line 69, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+  .s-hero .text p {
+    max-width: 100%;
+    text-align: center;
+  }
+  /* line 73, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+  .s-hero .text button {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: block;
+  }
+  /* line 79, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+  .s-hero .text .conheca {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 4, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+  .s-hero {
+    padding-top: 2.5rem;
+    margin-top: 8rem;
+  }
+  /* line 88, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+  .s-hero .text h1 {
+    font-size: 4rem;
+  }
+  /* line 92, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+  .s-hero .image {
+    left: -9px;
+  }
+}
+
+/* line 99, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-resourses {
+  padding-top: 14.9rem;
+  padding-bottom: 9.9rem;
+}
+
+/* line 103, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-resourses .top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5.3rem;
+}
+
+/* line 106, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-resourses .top h2 {
+  font-family: "PT Sans",sans-serif;
+  font-weight: bold;
+  font-size: 3.2rem;
+  line-height: 130%;
+  color: #453F51;
+  max-width: 50.2rem;
+}
+
+/* line 114, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-resourses .top p {
+  font-family: "PT Sans",sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 130%;
+  color: #453F51;
+}
+
+/* line 122, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-resourses .content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* line 124, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-resourses .content .icon {
+  width: 6.4rem;
+  height: 6.4rem;
+  background-color: rgba(197, 190, 220, 0.1);
+  border-radius: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+/* line 132, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-resourses .content .info {
+  max-width: 23.9rem;
+}
+
+/* line 134, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-resourses .content .info h4 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #5F3CA1;
+  margin-bottom: 2rem;
+}
+
+/* line 142, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-resourses .content .info p {
+  font-size: 1.8rem;
+  line-height: 165%;
+  color: #5E5570;
+}
+
+/* line 149, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-resourses .content .card-featured {
+  width: 100%;
+  max-width: 28rem;
+  height: 32.3rem;
+  background-color: rgba(197, 190, 220, 0.1);
+  border-radius: 12px;
+  padding-top: 4.1rem;
+  padding-left: 4.2rem;
+}
+
+/* line 157, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-resourses .content .card-featured .icon {
+  background-color: #ffffff;
+}
+
+/* line 160, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-resourses .content .card-featured .info {
+  max-width: 20.4rem;
+}
+
+/* line 164, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+.s-resourses .content ul {
+  width: 100%;
+  max-width: 90.4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 4.1rem;
+  border-bottom: 3px solid rgba(80, 51, 135, 0.089);
+  padding-bottom: 6.5rem;
+  padding-left: 2rem;
+}
+
+@media (max-width: 991) {
+  /* line 178, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+  .s-resourses .content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /* line 181, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+  .s-resourses .content .card-featured {
+    max-width: 100%;
+    height: auto;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* line 186, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+  .s-resourses .content .card-featured .info {
+    max-width: 100%;
+  }
+  /* line 188, ../../Users/ngungadev/Documents/codeBoost/Kinghost/scss/_home.scss */
+  .s-resourses .content .card-featured .info h4, .s-resourses .content .card-featured .info p {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
